@@ -1,1 +1,105 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Phuc Truong</title>
+<style>
+body {
+	background-image: url("images/Background.jpg");
+    background-color: #cccccc;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.img-circle {
+    border-radius: 50%;
+ }
+
+.center {
+    padding: 70px 0;
+    border: 2px solid orange;
+    text-align: center;
+    position:absolute;
+    width:780px;
+    height:400px;
+    left:50%;
+    top:50%;
+    margin-left:-390px;
+    margin-top:-325px;
+    background-color: white;
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Bold";
+    src: url(fonts/LeagueSpartan-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "LiberationSans-Regular";
+    src: url(fonts/LiberationSans-Regular.ttf) format("truetype");
+}
+
+h1 {
+    font-size: 300%;
+    line-height: 20%;
+}
+
+h2 {
+    font-size: 150%;
+    line-height: 20%;
+}
+
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.arialblack {
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+p.leaguespartan_bold{
+	font-family: "LeagueSpartan-Bold", "Arial Black", sans-serif;
+}
+
+p.liberationsans{
+	font-family: "LiberationSans-Regular", Arial, sans-serif;
+}
+
+#footer{
+    font-size: 14px;
+    font-family: "LiberationSans-Regular", Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    visibility: visible;
+    display: block
+}
+</style>
+</head>
+
+<body>
+<div class="center">
+	<img class="img-circle" src="images/Profile.jpg" width="150" height="150" alt="Phuc Truong's Profile"/>
+
+	<p class="liberationsans">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+	</p>
+
+	<h1><p class="leaguespartan_bold">PHUC TRUONG</p></h1>
+	<h2><p class="liberationsans">Vietnam - Metropolia UAS - Espoo</p></h2>
+	<p class="liberationsans">Hello, this is the official page of Truong Hoang Vinh Phuc.<br>
+	See <b><a href="about.html">About</a></b> for further information or <b><a href="contact.html">Contact</a></b> to stay in touch.</p>
+</div>
+
+<div id="footer">© 2016 by Vinh Phuc</div>
+</body>
+</html>
