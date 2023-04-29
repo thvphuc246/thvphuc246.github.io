@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <About />
+      <About color="teal" />
       <Knowledge />
       <Experience />
       <Achievement />
