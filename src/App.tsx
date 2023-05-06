@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Header />
+      <Header color="teal" />
       <About color="teal" />
       <Knowledge />
       <Experience />
